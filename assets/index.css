@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x:hidden;
+    font-family:Ubuntu;
+}
+
+/* START HEADER */
+
+header {
+    background:#000000;
+    background-image: url(img/background.jpg);
+    background-position:center;
+    background-size:cover;
+    height:500px;
+    color:#FFFFFF;
+}
+#jwwebh1 {
+    width:100%;
+    margin: 5% 0;
+    font-size:50px;
+    text-decoration:underline;
+}
+#pheader {
+    font-size:30px;
+}
+#imgheader {
+    width:50px;
+}
+#btncontact {
+    transition: transform 500ms;
+    margin-top:2%;
+    border: 2px solid #FFFFFF;
+    border-radius:5px;
+    color:#FFFFFF;
+    padding:1.5%;
+    background:#1C2127;
+}
+#btncontact:hover {
+    transition: transform 500ms;
+    transform:scale(1.1);
+    text-decoration:underline;
+}
+
+/* END HEADER */
+
+/* START QUI-SOMMES-NOUS SECTION */
+
+.qsncol {
+    animation: jackInTheBox 1s;
+    transition: transform 200ms;
+    margin: 2% auto;
+    font-size:22px;
+}
+.qsncol:hover {
+    transition: transform 200ms;
+    transform: scale(1.2);
+}
+#imgqsn {
+    width:70%;
+    display:block;
+    margin:10% auto;
+    animation: fadeInRight 2s;
+}
+#txtqsn {
+    animation: fadeInLeft 2s;
+}
+#pqsn {
+    font-size:22px;
+}
+.fas {
+    transition: color 1s;
+}
+.fas:hover {
+    transition: color 1s;
+    color:#FD4185;
+}
+
+/* END QUI-SOMMES-NOUS SECTION */
+
+/* START CREER-UN-SITE SECTION */
+
+.cuscol {
+    transition: transform 200ms;
+    animation: jackInTheBox 1s;
+    margin: 2% auto;
+    font-size:22px;
+}
+.cuscol:hover {
+    transition: transform 200ms;
+    transform: scale(1.2);
+}
+#imgcus {
+    width:100%;
+    display:block;
+    margin:10% auto;
+    animation: fadeInLeft 2s;
+}
+#txtcus {
+    animation: fadeInRight 2s;
+    font-size:17px;
+}
+
+/* END CREER-UN-SITE SECTION */
+
+/* START CONTACT SECTION */
+
+.concol {
+    transition: transform 200ms;
+    animation: jackInTheBox 1s;
+    margin: 2% auto;
+    font-size:22px;
+}
+.concol:hover {
+    transition: transform 200ms;
+    transform: scale(1.2);
+}
+.contactblock {
+    margin-top:7%;
+    animation: fadeInLeft 2s;
+}
+.contactp {
+    font-size:22px;
+}
+.contactpi {
+    font-size:50px;
+}
+.fa-twitter:hover {
+    transition: color 1s;
+    color:#1DA1F2;
+}
+.fa-instagram:hover {
+    transition: color 1s;
+    color:#E1306C;
+}
+#imgcon {
+    width:70%;
+    display:block;
+    margin:10% auto;
+    animation: fadeInRight 2s;
+}
+.acontact {
+    color:inherit;
+}
+/* END CONTACT SECTION */
